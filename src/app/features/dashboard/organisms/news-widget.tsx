@@ -24,7 +24,7 @@ function NewsWidget() {
   return (
     <WidgetFactory title="News">
       <div>
-        <div className="text-lg font-bold mb-2 text-gray-800 leading-tight">
+        <div className="text-sm font-bold mb-2 text-gray-800 leading-tight">
           {data?.title}
         </div>
         <div className="text-gray-700 text-sm leading-snug">

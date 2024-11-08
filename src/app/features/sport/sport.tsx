@@ -65,7 +65,7 @@ function TeamWins() {
       <div className="flex flex-1 items-start justify-center mt-10">
         <div className="w-1/2 max-w-md">
           <Input
-            className="border-0 border-white rounded-none focus:border-white ring-0 ring-offset-0 !text-4xl font-bold placeholder:text-4xl"
+            className="border-0 border-white rounded-none focus:border-white ring-0 ring-offset-0 !text-4xl font-bold placeholder:text-4xl py-4 h-auto min-h-[80px]"
             variant="default"
             placeholder="Input winning team"
             type="text"
